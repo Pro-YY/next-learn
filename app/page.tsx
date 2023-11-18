@@ -27,12 +27,12 @@ export default function Page() {
             </a>
             , Phappi.com 风霈科技（北京）有限公司.
           </p>
-          <p className={`${inter.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+          {/* <p className={`${inter.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司
           </p>
           <p className={`${noto_sans.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司 (指定)
-          </p>
+          </p> */}
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司 (默认)
           </p>
