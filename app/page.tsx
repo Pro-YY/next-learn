@@ -21,11 +21,11 @@ export default function Page() {
           {/* <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}> */}
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
 
-            <strong>Welcome to Acme.Phappi 风霈科技</strong> This is the example for the{' '}
+            <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
-            , Phappi.com 风霈科技（北京）有限公司.
+            OhOh, Phappi.com
           </p>
           {/* <p className={`${inter.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司
@@ -33,12 +33,12 @@ export default function Page() {
           <p className={`${noto_sans.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司 (指定)
           </p> */}
-          <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+          {/* <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司 (默认)
           </p>
           <p className={`${noto_serif.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             Phappi.com 风霈科技（北京）有限公司 (指定)
-          </p>
+          </p> */}
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
